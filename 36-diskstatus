@@ -65,5 +65,5 @@ for i in "${!disks[@]}"; do
 done
 out+="\n"
 
-printf "\ndisk status:\n"
+printf "\nDisk Status:\n"
 printf "$out" | column -ts $',' | sed -e 's/^/  /'

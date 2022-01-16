@@ -16,7 +16,7 @@ zpool status -x | sed -e 's/^/  /'
 
 # zpool usage
 mapfile -t zpools < <(zpool list -Ho name,cap,size)
-printf "\nzpool usage:\n"
+printf "\nzpool Usage:\n"
 
 for line in "${zpools[@]}"; do
     # get zpool usage

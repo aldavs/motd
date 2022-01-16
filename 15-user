@@ -1,0 +1,6 @@
+#!/bin/bash
+
+W="\e[0;39m"
+echo -e "
+$W  Logged in as: "$user@$hostname"
+"

@@ -3,5 +3,4 @@
 W="\e[0;39m"
 
 echo -e "
-$W  Logged in as: $(id -un)@$(hostname)
-"
+$W  Logged in as: $(id -un)@$(hostname)"

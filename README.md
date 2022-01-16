@@ -1,1 +1,2 @@
 # paperhouse
+- motd

@@ -1,0 +1,8 @@
+#!/bin/bash
+
+W="\e[0;39m"
+
+echo -e "
+${W}UNAUTHORIZED ACCESS TO THIS DEVICE IS PROHIBITED
+You must have explicit, authorized permission to access or configure this device.
+All activities performed onthis device are logged and monitored."

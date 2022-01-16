@@ -1,6 +1,12 @@
 #!/bin/bash
 
+W="\e[0;39m"
+R="\e[1;31m"
+G="\e[1;32m"
+Y="\e[1;33m"
 B="\e[1;34m"
+M="\e[1;35m"
+C="\e[1;36m"
 
 echo -e "$B"
 figlet -f slant "$(hostname)"

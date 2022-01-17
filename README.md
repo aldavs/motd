@@ -6,3 +6,5 @@ Collection of shell scripts executed at initial SSH connection. Designed to be p
 - [hddtemp](https://savannah.nongnu.org/projects/hddtemp/) (for `36-diskstatus`)
 ## usage
 Copy the files to `/etc/update-motd.d`. Set the `PrintMotd` option to `yes` in the sshd config.
+## credits
+Based on yboetz's [motd](https://github.com/yboetz/motd) repo and bcyran's [fancy-motd](https://github.com/bcyran/fancy-motd) repo.

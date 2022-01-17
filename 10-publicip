@@ -3,7 +3,7 @@
 W="\e[0;39m"
 Y="\e[1;33m"
 
-ip_v4="$(curl ifconfig.me/ip)"
+ip_v4=$(curl -s ifconfig.me/ip)
 
 echo -e "
-$W  Public IP...: $Y$(ip_v4)"
+$W  Public IP...: $Y${ip_v4}"

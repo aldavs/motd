@@ -5,6 +5,6 @@ Collection of shell scripts executed at initial SSH connection. Designed to be p
 - [figlet](http://www.figlet.org/) (for `10-display-name`)
 - [hddtemp](https://savannah.nongnu.org/projects/hddtemp/) (for `36-diskstatus`)
 ## usage
-Copy the files to `/etc/update-motd.d`. Set the `PrintMotd` option to `yes` in the sshd config.
+Copy the files to `/etc/update-motd.d`. Scripts are executed at login, or can be tested via `run-parts /etc/update-motd.d`.
 ## credits
 Based on yboetz's [motd](https://github.com/yboetz/motd) repo and bcyran's [fancy-motd](https://github.com/bcyran/fancy-motd) repo.

@@ -1,6 +1,7 @@
 #!/bin/bash
 
 W="\e[0;39m"
+Y="\e[1;33m"
 
 echo -e "
-$W  Logged in as: $(id -un)@$(hostname)"
+$W  Logged in as: $Y$(id -un)@$(hostname)"

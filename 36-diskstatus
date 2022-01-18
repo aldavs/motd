@@ -43,7 +43,7 @@ for i in "${!disks[@]}"; do
     fi
     # add "C" if temp is numeric
     if [[ "$temp" =~ ^[0-9]+$ ]]; then
-        temp="${temp}C"
+        temp="${temp}°C"
     fi
     # color green if status is "without error", else red
     if [[ "${status}" == "without error" ]]; then

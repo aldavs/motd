@@ -2,7 +2,7 @@
 ## about
 My collection of shell scripts executed at SSH login. Designed with minimal dependencies to be platform-agnostic so I don't have to modify for each deployment.
 ## dependencies
-- [figlet](http://www.figlet.org/) (for `10-display-name`)
+- [figlet](http://www.figlet.org/) (for `00-banner`)
 - [hddtemp](https://savannah.nongnu.org/projects/hddtemp/) (for `36-diskstatus`)
 ## usage
 Copy the files to `/etc/update-motd.d`.<br>

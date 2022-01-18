@@ -1,6 +1,6 @@
 # motd (message of the day)
 ## about
-Collection of shell scripts executed at initial SSH connection. Designed to be platform-agnostic.
+My collection of shell scripts executed at SSH login. Designed with minimal dependencies to be platform-agnostic so I don't have to modify for each deployment.
 ## dependencies
 - [figlet](http://www.figlet.org/) (for `10-display-name`)
 - [hddtemp](https://savannah.nongnu.org/projects/hddtemp/) (for `36-diskstatus`)
@@ -8,4 +8,4 @@ Collection of shell scripts executed at initial SSH connection. Designed to be p
 Copy the files to `/etc/update-motd.d`.<br>
 Scripts are executed at login, or can be tested via `sudo run-parts /etc/update-motd.d`.
 ## credits
-Based on yboetz's [motd](https://github.com/yboetz/motd) repo and bcyran's [fancy-motd](https://github.com/bcyran/fancy-motd) repo.
+Based on yboetz's [motd](https://github.com/yboetz/motd) repo and bcyran's [fancy-motd](https://github.com/bcyran/fancy-motd) repo which are in turn based on u/LookAtMyKeyboard's [reddit post](https://www.reddit.com/r/unixporn/comments/8gwcti/motd_ubuntu_server_1804_lts_my_motd_scripts_for/).

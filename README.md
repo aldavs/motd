@@ -10,7 +10,8 @@ My collection of shell scripts executed at SSH login. Designed with minimal depe
 ## installation
 1. `git clone https://github.com/aldavs/motd.git && cd motd`
 2. `sudo chown root:root *`
-3. `sudo cp * /etc/update-motd.d/`
+3. `sudo cp issue* /etc/`
+4. `sudo cp * /etc/update-motd.d/`
 ## usage
 Scripts are executed at login, or can be tested via `sudo run-parts /etc/update-motd.d`.
 ## credits

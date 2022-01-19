@@ -2,8 +2,10 @@
 
 W="\e[0;39m"
 
-echo -e "
-${W}UNAUTHORIZED ACCESS TO THIS DEVICE IS PROHIBITED
+echo -e "${W}
+=================================================================================
+UNAUTHORIZED ACCESS TO THIS DEVICE IS PROHIBITED
 You must have explicit, authorized permission to access or configure this device.
 All activities performed on this device are logged and monitored.
+=================================================================================
 "

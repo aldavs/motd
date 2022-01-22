@@ -4,4 +4,4 @@ W="\e[0;39m"
 B="\e[1;34m"
 
 echo -e "
-$W  Logged in as: $B$(id -un)@$(hostname)"
+$W  Logged in as: $B$(logname)@$(hostname)"

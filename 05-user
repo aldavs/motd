@@ -9,4 +9,4 @@ M="\e[1;35m"
 C="\e[1;36m"
 
 echo -e "
-$W  Logged in as: $B$(logname)$W@$B$(hostname)"
+$W  Logged in as: $Y$(logname)$W@$B$(hostname)"

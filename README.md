@@ -1,6 +1,6 @@
 # motd (message of the day)
 ## about
-Modular 'message of the day' shell scripts executed at SSH login on Linux. Designed with minimal dependencies to be platform-agnostic so they don't have to be modified for each deployment.
+Modular 'message of the day' shell scripts executed at SSH login on Linux. Designed with minimal dependencies to be platform-agnostic so the scripts don't have to be modified for each deployment.
 ## dependencies
 - [figlet](http://www.figlet.org/) (for `00-banner`)
 - [hddtemp](https://savannah.nongnu.org/projects/hddtemp/) (for `36-diskstatus`)

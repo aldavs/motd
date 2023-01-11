@@ -10,3 +10,4 @@ C="\e[1;36m"
 
 echo -e "$B"
 figlet -f slant "$(hostname)"
+echo -e "$W"
